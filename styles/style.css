@@ -24,6 +24,8 @@ header nav{
 	justify-content: space-between;
 	padding: 30px 50px;
 	background-color: white;
+	box-shadow: 1px 1px 2px lightgrey;
+
 }
 
 header nav img{
@@ -52,42 +54,24 @@ header nav ul li a:hover {
 }
 /* adicionando responsividade */
 @media(max-width: 768px){
-	/*  */
+	header nav{
+		display: flex;
+		flex-direction: column;
+	}	
+	header nav img{
+		margin-bottom: 20px;
+	}
 }
 
 /*main banner*/
 
 .main-banner {
-	margin-top: 100px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: 100vh;
+	margin-top: 10vh;
 	background: url('../img/banner6.jpg') no-repeat;
 	background-size: cover;
 	background-position: 0 55%;
 }
 
-.search-form {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 100%;
-	text-align: center;
-}
-
-.search-form h1 {
-	font-size: 40px;
-	color: grey;
-}
-
-.search-form p {
-	font-size: 18px;
-	color: grey;
-	margin: 30px 0 30px;
-	font-weight: 400;
-}
 
 .form-control {
 	padding: 10px;
@@ -99,16 +83,6 @@ header nav ul li a:hover {
 	font-weight: 500;
 }
 
-.mr-10 {
-	margin-right: 10px;
-}
-
-.btn-submit {
-	background-color: blue;
-	color: white;
-	font-weight: bold;
-	cursor: pointer;
-}
 
 /*main*/
 
