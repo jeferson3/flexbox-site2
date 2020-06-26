@@ -99,28 +99,24 @@ header nav ul li a:hover {
 
 /*main*/
 
+.last-job ul li:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
 .last-job ul {
 	width: 80%;
 	border: 1px solid lightgrey;
 	border-radius: 5px;
 }
 
-
 .last-job ul li a {
 	border-bottom: 1px solid lightgrey;
 }
-
 
 .company-box img {
 	width: 100px;
 	height: 80px;
 }
-
-/* 
-.locality i {
-	color: grey;
-	margin-right: 10px;
-} */
 
 .job-type .clt {
 	width: 300px;
@@ -150,6 +146,24 @@ header nav ul li a:hover {
 	font-weight: 500;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+	.locality {
+		margin-left: 50px;
+	}
+	.last-job ul {
+		width: 100%;
+	}
+	.job-type .clt {
+		width: 100px;
+	}
+	.job-type .pj {
+		width: 100px;
+	}
+	.job-type .home {
+		width: 100px;
+	}
 }
 
 /*banner 2*/
