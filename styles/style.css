@@ -8,6 +8,13 @@
 	box-sizing: border-box;
 }
 
+@media (orientaion: landscape) {
+	/* impede que a tela gire em dispositivo movel*/
+	content {
+		transform: rotate(-90deg);
+	}
+}
+
 /*header*/
 
 header {
