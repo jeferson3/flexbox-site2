@@ -1,11 +1,11 @@
 *{
 	margin: 0;
 	padding: 0;
+	list-style: none;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
 }
 
-html{
-	font-family: 'Open Sans', sans-serif; /* aplica o open sans ou san serif*/
-}
 
 p, h1, h2, h3, h4, span, small{
 	color: grey;
@@ -585,9 +585,6 @@ footer{
 	margin-left: 20px;
 
 }	
-
-
-/*responsive*/
 
 
 
