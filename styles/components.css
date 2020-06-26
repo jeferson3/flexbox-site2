@@ -1,0 +1,67 @@
+/* Estilos de texto */
+
+.title{
+	font-size: 40px;
+}
+
+.paragraph{
+	font-size: 18px;
+}
+
+.text-default{
+    color: grey;
+}
+
+.text-white{
+    color: white;
+}
+
+/* Estilos de botão */
+
+.btn{
+    border: none;
+	background-color: transparent;
+	color: black;
+	font-weight: 500;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: 0.5s all;
+}
+
+.btn-default{
+    background-color: white;
+    color: black;
+}
+.btn-default:hover{
+    opacity: 0.5;
+}
+.btn-primary{
+    background-color: blue;
+    color: white;
+}
+.btn-primary:hover{
+    opacity: 0.5;
+}
+
+.btn-primary-outline{
+    background-color: blue;
+    color: white;
+}
+
+.btn-primary-outline:hover{
+    background-color: white;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
