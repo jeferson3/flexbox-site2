@@ -1,3 +1,13 @@
+/* container */
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Estilos de texto */
 
 .title{
@@ -54,6 +64,22 @@
     color: blue;
 }
 
+/* grid flexbox */
+
+.row{
+    display: flex;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
 
 
 
