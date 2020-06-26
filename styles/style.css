@@ -58,9 +58,17 @@ header nav ul li a:hover {
 	header nav {
 		display: flex;
 		flex-direction: column;
+		width: 100%;
+		padding: 20px 0;
 	}
 	header nav img {
 		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 425px) {
+	header nav ul li a {
+		font-size: 10pt;
 	}
 }
 
@@ -90,10 +98,21 @@ header nav ul li a:hover {
 @media(max-width: 768px) {
 	.main-banner {
 		margin-top: 20vh;
+		padding-top: 20vh;
+		background-size: 80em;
 	}
 	.form {
 		display: flex;
 		flex-direction: column;
+	}
+	.form-control {
+		width: 100%;
+	}
+}
+
+@media (max-width: 425px) {
+	.main-banner {
+		/* background-size: 60em; */
 	}
 }
 
@@ -163,6 +182,53 @@ header nav ul li a:hover {
 	}
 	.job-type .home {
 		width: 100px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		height: 100%;
+		padding: 20px 0;
+	}
+	.last-job ul {
+		display: flex;
+		flex-direction: column;
+	}
+	.last-job ul li {
+		padding: 0;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.click-area {
+		display: flex;
+		flex-direction: column;
+	}
+	.company-box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.locality {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin: 20px auto;
+	}
+	.company-box img {
+		width: 200px;
+		height: 150px;
+	}
+	.job-type .clt {
+		width: 200px;
+	}
+	.job-type .pj {
+		width: 200px;
+	}
+	.job-type .home {
+		width: 200px;
 	}
 }
 
