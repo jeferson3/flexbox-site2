@@ -19,6 +19,7 @@ header nav {
 	top: 0;
 	left: 0;
 	width: 100%;
+	height: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -56,6 +57,9 @@ header nav ul li a:hover {
 
 @media(max-width: 768px) {
 	header nav {
+		height: 150px;
+	}
+	header nav {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
@@ -67,6 +71,10 @@ header nav ul li a:hover {
 }
 
 @media (max-width: 425px) {
+	header nav ul li {
+		text-transform: uppercase;
+		margin: 0 5px;
+	}
 	header nav ul li a {
 		font-size: 10pt;
 	}
@@ -75,7 +83,7 @@ header nav ul li a:hover {
 /*main banner*/
 
 .main-banner {
-	margin-top: 10vh;
+	margin-top: 100px;
 	background: url('../img/banner6.jpg') no-repeat;
 	background-size: cover;
 	background-position: 0 55%;
@@ -97,8 +105,7 @@ header nav ul li a:hover {
 
 @media(max-width: 768px) {
 	.main-banner {
-		margin-top: 20vh;
-		padding-top: 20vh;
+		margin-top: 150px;
 		background-size: 80em;
 	}
 	.form {
@@ -112,7 +119,7 @@ header nav ul li a:hover {
 
 @media (max-width: 425px) {
 	.main-banner {
-		/* background-size: 60em; */
+		background-size: 60em;
 	}
 }
 
