@@ -72,7 +72,8 @@ header nav ul li a:hover {
 	background-size: cover;
 	background-position: 0 55%;
 }
-.form{
+
+.form {
 	width: 100%;
 }
 
@@ -87,6 +88,9 @@ header nav ul li a:hover {
 }
 
 @media(max-width: 768px) {
+	.main-banner {
+		margin-top: 20vh;
+	}
 	.form {
 		display: flex;
 		flex-direction: column;
@@ -95,87 +99,28 @@ header nav ul li a:hover {
 
 /*main*/
 
-.last-job {
-	width: 100%;
-}
-
-.last-job h1 {
-	text-align: center;
-	margin: 50px 0 50px;
-	color: grey;
-	font-weight: 700;
-	font-size: 35px;
-}
-
 .last-job ul {
 	width: 80%;
-	display: flex;
-	flex-direction: column;
-	margin: 0 auto 0 auto;
 	border: 1px solid lightgrey;
 	border-radius: 5px;
-	/*padding: 10px;*/
 }
 
-.last-job ul li {
-	list-style: none;
-}
 
 .last-job ul li a {
-	display: flex;
-	text-decoration: none;
 	border-bottom: 1px solid lightgrey;
-	padding: 10px;
 }
 
-.company-box {
-	display: flex;
-}
 
 .company-box img {
 	width: 100px;
 	height: 80px;
 }
 
-.company-box .company-info {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: 0 100px 0 40px;
-}
-
-.company-box .company-info h3 {
-	color: grey;
-	font-weight: 300;
-}
-
-.company-box .company-info p {
-	color: grey;
-	font-weight: bold;
-	margin: 5px 0 5px;
-}
-
-.locality {
-	display: flex;
-	align-items: center;
-	width: 400px;
-	margin-left: 50px;
-}
-
+/* 
 .locality i {
 	color: grey;
 	margin-right: 10px;
-}
-
-.locality p {
-	color: grey;
-	font-weight: 400;
-}
-
-.job-type {
-	display: flex;
-	align-items: center;
-}
+} */
 
 .job-type .clt {
 	width: 300px;
@@ -205,29 +150,6 @@ header nav ul li a:hover {
 	font-weight: 500;
 	text-align: center;
 	text-transform: uppercase;
-}
-
-.text-center {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
-
-.btn-outline {
-	margin: 50px 0 100px 0;
-	border: 2px solid blue;
-	background-color: white;
-	border-radius: 5px;
-	padding: 10px;
-	color: blue;
-	font-weight: 600;
-	cursor: pointer;
-	transition: 0.3s all;
-}
-
-.btn-outline:hover {
-	background-color: blue;
-	color: white;
 }
 
 /*banner 2*/
