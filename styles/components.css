@@ -60,13 +60,15 @@
     opacity: 0.5;
 }
 
-.btn-primary-outline{
+.primary-outline{
     background-color: blue;
     color: white;
+    border: 2px solid transparent;
 }
 
-.btn-primary-outline:hover{
+.primary-outline:hover{
     background-color: white;
+    border: 2px solid blue;
     color: blue;
 }
 
