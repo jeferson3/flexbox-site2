@@ -71,6 +71,20 @@
     border: 2px solid blue;
     color: blue;
 }
+.toggle{
+	width: 30px;
+	height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: transparent;
+}
+.toggle:hover{
+    opacity: 0.5;
+}
+.toggle i{
+    color: grey;
+    font-size: 30px;
+}
 
 /* grid flexbox */
 
