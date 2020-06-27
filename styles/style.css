@@ -275,41 +275,28 @@ header nav ul li a:hover {
 /*banner 2*/
 
 .sendjoobs {
-	width: 100%;
 	background: url(../img/banner2.jpg) no-repeat;
 	background-size: cover;
 	background-position: 0 60%;
+	align-items: flex-start;
 }
 
 .sendjoobs-inner {
-	width: 40%;
+	width: 50%;
 	height: 100%;
-	padding: 100px 100px 50px 100px;
+	justify-content: space-around;
+}
+@media (max-width: 768px) {
+	.sendjoobs {
+		align-items: center;
+	}
+	.sendjoobs-inner {
+		width: 100%;
+		justify-content: center;
+	}
 }
 
-.sendjoobs-inner h1 {
-	color: white;
-	text-align: left;
-	font-weight: 700;
-	font-size: 35px;
-}
 
-.sendjoobs-inner p {
-	color: white;
-	text-align: left;
-	margin: 50px 0 110px;
-}
-
-.btn-light {
-	font-weight: 600;
-	padding: 15px;
-	border: none;
-	background-color: lightgrey;
-	color: #606060;
-	border-radius: 5px;
-	margin-bottom: 100px;
-	text-transform: uppercase;
-}
 
 /*job-status*/
 
