@@ -116,9 +116,14 @@
 .mx-10 {
 	margin: 0 10px 0 10px;
 }
-
 .my-10 {
-	margin: 10px 0 10px;
+    margin: 10px 0;
+}
+.mx-20 {
+	margin: 0 20px;
+}
+.my-20 {
+	margin: 0 20px;
 }
 
 
