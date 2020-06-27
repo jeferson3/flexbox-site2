@@ -90,14 +90,12 @@ header nav ul li a:hover {
 		flex-direction: column;
 		align-items: flex-start;
 	}
+	
 	header nav ul {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-	}
-	header nav ul {
-		width: 100%;
 		background-color: white;
 		position: absolute;
 		top: 80px;
