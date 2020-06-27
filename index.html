@@ -15,17 +15,17 @@
 </head>
 
 <body>
-	<!-- <script>
-		alert('ainda em construção!!!');
-	</script> -->
 	<header>
 		<nav>
 			<img src="img/logo.png" alt="jobFinder">
-			<ul>
+			<ul id="menu">
 				<li><a href="#">Encontrar vaga</a></li>
 				<li><a href="#">Cadastrar vaga</a></li>
 				<li><a href="#">Contato</a></li>
 			</ul>
+			<button class="toggleButton toggle" id="toggle">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</button>
 		</nav>
 		<div class="main-banner container p-10">
 			<div class="search-form col  justify-center align-center text-center">
@@ -287,6 +287,19 @@
 			<p>Copyright &copy;</p>
 		</div>
 	</footer> -->
+
+	<script>
+		document.getElementById('toggle')
+		.addEventListener('click', function() {
+			let menu = document.getElementById('menu').style.left;
+			if(menu == '-100%'){
+				document.getElementById('menu').style.left = '0';
+			} else {
+				document.getElementById('menu').style.left = '-100%';
+			}
+		})
+		addEventListener('')
+	</script>
 </body>
 
 </html>
