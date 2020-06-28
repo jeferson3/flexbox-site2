@@ -302,57 +302,42 @@ header nav ul li a:hover {
 
 
 /*job-status*/
+.list-box{
+	flex-wrap: wrap;
 
-.status-container {
-	width: 100%;
-}
-
-.title-center {
-	text-align: center;
-	color: grey;
-	margin: 50px 0 50px;
-	font-weight: 700;
-	font-size: 35px;
-}
-
-.p-center {
-	text-align: center;
-	color: grey;
-	width: 80%;
-	margin: 0 auto 100px auto;
-}
-
-.list-box {
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	padding-bottom: 100px;
 }
 
 .box {
-	padding: 10px 50px 10px 50px;
-	margin: 100px 0 100px;
-	border-left: 1px solid grey;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	padding: 10px 50px;
+	border-right: 2px solid lightgrey;
 	width: 200px;
+	text-align: center;
 }
 
-.box:nth-child(4) {
-	border-right: 1px solid grey;
+.box:nth-child(1) {
+	border-left: 2px solid lightgrey;
 }
 
-.box span {
-	color: grey;
-	font-size: 40px;
-	/*font-weight: 400;*/
+@media(max-width: 768px){
+	.box:nth-child(4) {
+		margin: 0 0.5px 0 -2px;
+		border-left: 2px solid lightgrey;
+	}
+}
+@media(max-width: 425px){
+	.box:nth-child(1){
+		border-left: none;		
+	}
+	.box:nth-child(4){
+		border-left: none;		
+	}
+	.box{
+		border: none;
+		border-bottom: 2px solid lightgrey;
+	}
 }
 
-.box p {
-	color: grey;
-}
+
 
 /*testmony*/
 
