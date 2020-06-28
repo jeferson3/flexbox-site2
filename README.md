@@ -4,4 +4,4 @@
 ## endereço no github pages 
 https://jeferson3.github.io/flexbox-site2
 
-## a parte responsiva do site ainda está em construção**
+## site ainda está em construção**
