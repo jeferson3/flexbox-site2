@@ -15,7 +15,8 @@
 }
 
 .paragraph{
-	font-size: 18px;
+    font-size: 18px;
+    max-width: 80%;
 }
 
 .text-default{
