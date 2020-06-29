@@ -291,11 +291,15 @@ header nav ul li a:hover {
 }
 @media (max-width: 768px) {
 	.sendjoobs {
-		align-items: center;
+		/* align-items: center; */
 	}
 	.sendjoobs-inner {
 		width: 100%;
-		justify-content: center;
+	}
+	.sendjoobs-inner div .paragraph{
+		width: 100%;
+		margin: auto;
+		text-align: justify;
 	}
 }
 
