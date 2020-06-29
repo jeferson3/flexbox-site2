@@ -126,6 +126,10 @@
 .my-20 {
 	margin: 20px 0;
 }
+.m-auto{
+    margin-right: auto;
+    margin-left: auto;
+}
 
 
 .p-10{
