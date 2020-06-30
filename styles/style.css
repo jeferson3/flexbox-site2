@@ -408,61 +408,17 @@ header nav ul li a:hover {
 
 /* blog container */
 
-.blog-container {
-	width: 100%;
-}
-
-.blog-container-wrapper {
-	width: 80%;
-	margin: 0 auto 0 auto;
-}
-
-.blog-container h1 {
-	text-align: center;
-	font-weight: 700;
-	font-size: 35px;
-}
-
-.blog-container p {
-	padding: 30px 0 50px;
-	text-align: center;
-}
-
-.article-box {
-	display: flex;
-	justify-content: center;
-}
-
-.article-box-item {
-	margin: 0 20px 0 20px;
+.article-box-item{
+	width: 400px;
 }
 
 .article-box-item img {
-	width: 350px;
+	width: 100%;
 	height: 250px;
 	border-radius: 5px;
 }
 
-.article-box h4 {
-	margin: 20px 0 20px;
-}
 
-.article-box span {}
-
-.article-box p {
-	width: 350px;
-	text-align: left;
-}
-
-.article-box button {
-	background-color: blue;
-	color: white;
-	cursor: pointer;
-}
-
-.article-box button:hover {
-	opacity: 0.5;
-}
 
 /*footer*/
 
