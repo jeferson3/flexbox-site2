@@ -408,6 +408,11 @@ header nav ul li a:hover {
 
 /* blog container */
 
+.article-box{
+	flex-wrap: wrap;
+
+}
+
 .article-box-item{
 	width: 400px;
 }
@@ -417,8 +422,6 @@ header nav ul li a:hover {
 	height: 250px;
 	border-radius: 5px;
 }
-
-
 
 /*footer*/
 
