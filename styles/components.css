@@ -111,20 +111,25 @@
 
 
 .my-30 {
-	margin: 30px 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .mx-10 {
-	margin: 0 10px 0 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .my-10 {
-    margin: 10px 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .mx-20 {
-	margin: 0 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .my-20 {
-	margin: 20px 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .m-auto{
     margin-right: auto;
@@ -137,14 +142,20 @@
 }
 
 .px-10 {
-	margin: 0 10px 0 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
-
 .py-10 {
-	margin: 10px 0 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.px-20 {
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .py-20 {
-	margin: 20px 0 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 /* texto responsivo */
