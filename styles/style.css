@@ -426,56 +426,29 @@ header nav ul li a:hover {
 /*footer*/
 
 footer {
-	width: 100%;
 	background-color: grey;
 }
 
 .footer-container {
-	display: flex;
-	padding: 100px;
+	justify-content: space-around;
+	flex-wrap: wrap;
 	border-bottom: 1px solid lightgrey;
 }
 
 .description {
+	width: 300px;
 	height: 100%;
-	width: 30%;
-	margin-right: 100px;
-}
-
-.description h1 {
-	color: lightgrey;
-	padding: 30px 0 20px;
-	font-weight: 400;
-}
-
-.description p {
-	color: lightgrey;
 }
 
 .artigo-box {
-	width: 30%;
+	width: 300px;
 	height: 100%;
-	margin-right: 100px;
-}
-
-.artigo-box h1 {
-	color: lightgrey;
-	margin-bottom: 20px;
-	font-weight: 400;
 }
 
 .artigo-item {
 	margin: 20px 0 20px;
 }
 
-.artigo-item p {
-	color: lightgrey;
-	font-size: 20px;
-}
-
-.artigo-item small {
-	color: lightgrey;
-}
 
 .rede-social {
 	display: flex;
