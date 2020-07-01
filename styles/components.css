@@ -26,6 +26,10 @@
 .text-white{
     color: white;
 }
+.text-lightgrey{
+    color: lightgrey;
+}
+
 .text-center{
     text-align: center;
 }
